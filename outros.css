@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+main {
+    flex: 1;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #4aa0d9;
+    padding: 10px 40px;
+    position: relative;
+    border-bottom: 2px solid black;
+}
+
+.nav-links {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.arrow {
+    font-size: 10px;
+    color: #e6e6e6;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding: 40px;
+}
+
+.card {
+    background-color: #00b8d4;
+    width: 200px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+.card img {
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 30px;
+    border: 2px solid black;
+}
+
+.card p {
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+}
+
+.botao {
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 6px;
+    margin-top: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover .botao {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.footer {
+    border-top: 2px solid black;
+    background-color: #4aa0d9;
+    color: white;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
