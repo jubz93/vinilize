@@ -75,6 +75,11 @@ main {
     border: 2px solid black;
 }
 
+.card a {
+    text-decoration: none;
+}
+
+
 .card p {
     font-weight: bold;
     color: white;
@@ -108,4 +113,5 @@ main {
     font-family: Arial, sans-serif;
     font-size: 14px;
     line-height: 1.6;
+
 }
