@@ -83,7 +83,7 @@ main {
 .card p {
     font-weight: bold;
     color: white;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .botao {
@@ -115,5 +115,6 @@ main {
     line-height: 1.6;
 
 }
+
 
 
