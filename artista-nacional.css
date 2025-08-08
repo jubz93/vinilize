@@ -74,6 +74,9 @@ main {
     margin-bottom: 30px;
     border: 2px solid black;
 }
+.card a {
+    text-decoration: none;
+}
 
 .card button {
     font-weight: bold;
@@ -94,4 +97,5 @@ main {
     font-family: Arial, sans-serif;
     font-size: 14px;
     line-height: 1.6;
+
 }
