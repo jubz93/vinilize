@@ -83,19 +83,20 @@ main {
 .card p {
     font-weight: bold;
     color: white;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .botao {
     background-color: #fff;
     color: #007bff;
     border: none;
-    padding: 5px 5px;
+    padding: 10px 10px;
     border-radius: 6px;
     margin-top: 15px;
     font-weight: bold;
     cursor: pointer;
     opacity: 0;
+    overflow: hidden;
     transform: translateY(20px);
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
@@ -115,6 +116,7 @@ main {
     line-height: 1.6;
 
 }
+
 
 
 
