@@ -90,7 +90,7 @@ main {
     background-color: #fff;
     color: #007bff;
     border: none;
-    padding: 10px 10px;
+    padding: 5px 5px;
     border-radius: 6px;
     margin-top: 15px;
     font-weight: bold;
@@ -115,4 +115,5 @@ main {
     line-height: 1.6;
 
 }
+
 
